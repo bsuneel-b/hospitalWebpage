@@ -1,0 +1,252 @@
+*{
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+/* index page css */
+header,footer{
+    background-color: #2fa5eb;
+    padding: 5px;
+    
+}
+header p{
+    text-align: right;
+    color: aliceblue;
+    font-size: 20px;
+    width: 90%;
+
+}
+footer p{
+    color: white;
+    background-color: black;
+    padding: 5px;
+    margin: 0px 40px;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+}
+footer{
+    padding: 0px;
+}
+
+nav{
+    padding: 10px;
+    position: sticky;
+    top: 70px;
+    left: 0;
+    z-index: 1;
+}
+p span{
+    color: #2fa5eb ;
+}
+nav p{
+    font-family:forte;
+    font-size: 50px;
+    display: inline;
+    font-style: italic;
+    margin-left: 120px;
+    width: 90%;
+}
+.links{
+    display: inline;
+    margin-left: 245px;
+}
+.links a{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(117, 105, 105);
+}
+a:hover{
+    text-decoration: underline;
+    color: #2fa5eb;
+}
+.back{
+    height: 400px;
+    background-image: url(./pictures/a.jpg);
+    background-repeat: repeat;
+    width: 80%;
+    margin: 0 auto;
+}
+.back div{
+    width: 900px;
+    height: 300px;
+    background-color: rgb(14, 14, 15);
+    opacity:0.4;
+    margin: 0 auto;
+}
+.oo{
+    padding-top: 130px;
+    color: azure;
+    font-size: 60px;
+}
+.aa{
+    font-size: 30px;
+    color: azure;
+    font-weight: bold;
+}
+.data{
+    width: 70%;
+    margin: 0 auto;
+}
+button{
+    background-color: #2fa5eb;
+    color: aliceblue;
+    font-size: 15px;
+}
+p,h3,ul{
+    padding: 10px;
+}
+ .make{
+    text-align: center;
+    margin: 10px;
+}
+input,select{
+    padding: 10px;
+    width: 200px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+textarea{
+    margin-left: 9px;
+}
+button{
+    padding: 10px;
+    width:423px ;
+    margin:10px 0px 10px 10px
+}
+.tab{
+    margin-left: 800px;
+}
+/* contact us page */
+
+.para{
+    width:90%;
+}
+.logo{
+    overflow: hidden;
+    height: 390px;
+    padding: 100px;
+}
+.box img{
+    width: 350px;
+    height: 170px;
+}
+#logo{
+  color: rgb(9, 9, 9);
+}
+.read {
+  width: fit-content;
+  padding: 15px;
+  background-color:rgb(236, 230, 230);
+  color: black;
+  margin-left: 170px;
+  border-radius: 30px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.box {
+  width: 40%;
+  float: left;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 20px;
+  padding: 10px;
+}
+.box1{
+    margin-left: 170px;
+    padding: 10px;
+}
+.box h1{
+  color:#2fa5eb;
+}
+.box h2{
+  color:#2fa5eb;
+}
+/* service page */
+#out{
+    font-size: 25px;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+ .pic{
+    width: 300px;
+    height: 200px;
+   margin-left: 400px;
+   margin-top: 20px;
+}
+.service{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    height: 295px;
+}
+.offer{
+    margin: 40px 0px 0px 160px;
+}
+ul{
+    margin-left: 30px;
+}
+.dept{
+    margin-left: 170px;
+    padding: 20px;
+}
+/* about us */
+.kk{
+    margin-left: 100px;
+}
+.us{
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+    margin-left: 100px;
+}
+.para{
+    float: left;
+    overflow: hidden;
+    width: 40%;
+    padding: 10px;
+}
+.pics{
+    width: 400px;
+    height: 250px;
+    margin-left: 100px;
+}
+ #aa{
+    background-color: yellow;
+    color: black;
+}
+.add{
+    margin-left: 120px;
+}
+.add h1,p{
+    margin: 0px;
+    padding: 10px;
+}
+.zero p{
+    padding: 0px;
+}
+/* doctors */
+.maindoc{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+    height: 600px;
+}
+.doc{
+    height: fit-content;
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+.pic1{
+    width: 200px;
+    height: 150px;
+}
+
+
